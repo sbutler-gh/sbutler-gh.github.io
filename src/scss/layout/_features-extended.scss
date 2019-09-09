@@ -10,6 +10,15 @@
 .feature-extended-image {
     margin-bottom: 24px;
 
+    @media (max-width: 800px) {
+      width: 100% !important;
+      img.device-mockup.impact-frame {
+            max-width: inherit !important;
+            width: inherit !important;
+            margin: 0 !important;
+        }
+    }
+
 	img,
     svg {
         width: 100%;

@@ -17,8 +17,21 @@
     margin-right: -12px;
     margin-left: -12px;
 
+
+		@media (max-width: 800px) {
+			div.testimonial {
+				margin-top: inherit !important;
+				padding: inherit !important;
+			}
+		}
+
+
     &:first-child {
         margin-top: -12px;
+				@media (max-width: 800px) {
+					margin-top: inherit !important;
+					padding: inherit !important;
+				}
     }
 
     &:last-child {
